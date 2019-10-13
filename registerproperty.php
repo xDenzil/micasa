@@ -125,10 +125,6 @@ $_SESSION['last_action'] = time();
                                                 <td><?php echo $areacode;
                                                     echo $phonenumber ?></td>
                                             </tr>
-                                            <tr>
-                                                <td class="font-weight-bold">Password</td>
-                                                <td><?php echo $password ?></td>
-                                            </tr>
                                         </tbody>
                                     </table>
                                 </div>
