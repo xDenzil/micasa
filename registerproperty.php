@@ -6,11 +6,10 @@ session_start();
 //unset($_SESSION['passwordconfirm']);
 
 
-if ((isset($_SESSION['errFlagPage3'])) && ($_SESSION['errFlagPage3']) == true) { //IF SESSION FLAG IS SET AND IS TRUE
+ //IF SESSION FLAG IS SET AND IS TRUE
     foreach ($_SESSION as $key => $value) { //USE SESSION VARIABLE AS KEY VARIABLE TO ASSIGN VALUES
         $$key = $value;
     }
-}
 
 if (isset($_POST['contact-submit'])) {
     $myfile = fopen("files/contact.txt", "a");
