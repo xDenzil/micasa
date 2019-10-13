@@ -1,0 +1,6 @@
+NAME: Denzil Williams | USERNAME: @denzilsir | EMAIL: denzil3@gmail.com
+PROPERTY TYPE: Vacant Lot | LAND SIZE: 240 | BUILDING TYPE: None| BEDROOMS: 2| BATHROOMS: 3| LISTING TYPE: Rent| PRICE: 3400
+
+NAME: Tuwanie Morgan | USERNAME: @tuwanieme | EMAIL: morgan@ymail.com
+PROPERTY TYPE: Residential | LAND SIZE: 500.3 | BUILDING TYPE: Apartment| BEDROOMS: 2| BATHROOMS: 0| LISTING TYPE: Purchase| PRICE: 54000
+

@@ -16,7 +16,7 @@ if (isset($_POST['continue'])) { //IF CONTINUE BUTTON IS PRESSED
         $_SESSION[$key] = $value;
     }
 
-    $_SESSION['errFlagPage1'] = false;
+    
 
     // FIRST NAME VALIDATION
     if (empty($_POST['firstname'])) {
@@ -123,9 +123,6 @@ if (isset($_POST['continue'])) { //IF CONTINUE BUTTON IS PRESSED
         $_SESSION['errFlag5'] = false;
     }
 
-    if ($phoneNumberCorrect == true) { // Appending the area code and phone number to one string
-        $_SESSION['phonewithareacode'] = $_POST['areacode'] + $_POST['phonenumber'];
-    }
 
 
     // PASSWORD VALIDATION
@@ -176,6 +173,7 @@ if (isset($_POST['continue'])) { //IF CONTINUE BUTTON IS PRESSED
         $_SESSION['errFlagPage1'] = true;
         header("Location: ../registration.php");
     } else {
+        $_SESSION['errFlagPage1'] = false;
         header("Location: ../location.php");
     }
 }
