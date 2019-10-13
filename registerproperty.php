@@ -93,12 +93,12 @@ $_SESSION['last_action'] = time();
 
 
 <body>
-    <div class="home">
+    
         <div class="mt-5">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
-                        <div class="card">
+                        <div class="bg-light">
                             <div class="card-body p-5">
                                 <h4 class="card-title">Contact</h4>
                                 <div class="table-responsive table-borderless text-left">
@@ -137,7 +137,7 @@ $_SESSION['last_action'] = time();
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="card">
+                        <div class="bg-white">
                             <div class="card-body p-5">
                                 <h4 class="card-title">Location</h4>
                                 <div class="table-responsive table-borderless text-left">
@@ -171,12 +171,10 @@ $_SESSION['last_action'] = time();
                             
                         </div>
 
-                        <form action="<?= $_SERVER['PHP_SELF']; ?>" method="post">
-                            <input type="submit" name="exit" value="Exit" class="btn btn-danger col-md-12 mt-5">
-                        </form>
+                        
                     </div>
                     <div class="col-md-4">
-                        <div class="card">
+                        <div class="bg-light">
                             <div class="card-body p-5">
                                 <h4 class="card-title">Description</h4>
                                 <div class="table-responsive table-borderless text-left">
@@ -217,8 +215,11 @@ $_SESSION['last_action'] = time();
                                     <input type="submit" name="description-submit" value="Save to File" class="btn btn-primary">
                                 </form>
                             </div>
+                            
                         </div>
-                        
+                        <form action="<?= $_SERVER['PHP_SELF']; ?>" method="post">
+                            <input type="submit" name="exit" value="Exit" class="btn btn-danger col-md-12 mt-5">
+                        </form>
 
                     </div>
 
@@ -227,7 +228,7 @@ $_SESSION['last_action'] = time();
                 </div>
             </div>
         </div>
-    </div>
+  
 </body>
 
 
