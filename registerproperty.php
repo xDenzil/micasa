@@ -137,7 +137,7 @@ $_SESSION['last_action'] = time();
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="bg-white">
+                        <div class="bg-light">
                             <div class="card-body p-5">
                                 <h4 class="card-title">Location</h4>
                                 <div class="table-responsive table-borderless text-left">
