@@ -134,7 +134,7 @@ $_SESSION['last_action'] = time();
 
 
                                         </div>
-                                    </div><input class=" btn btn-primary roundbut col-md-12 mt-4" role="button" href="./description.php" name="continuelocate" type="submit" value="continue"></input>
+                                    </div><input class=" btn btn-primary roundbut col-md-12 mt-4" role="button" href="./description.php" name="continuelocate" type="submit" value="Continue"></input>
                                 </form>
                             </div>
                         </div>
