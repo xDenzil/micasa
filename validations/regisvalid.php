@@ -99,7 +99,7 @@ if (isset($_POST['continue'])) { //IF CONTINUE BUTTON IS PRESSED
         $_SESSION['areacode'] = null;
         $_SESSION['errFlag4'] = true;
         $phoneNumberCorrect = false;
-    } else if (!preg_match("/[0-9]{3}/", $_POST['areacode'])) {
+    } else if (!preg_match("/^$|^\d{3}$/", $_POST['areacode'])) {
         $_SESSION['areacode_error'] = "<span class='error small-text'>* Invalid area code. </span>";
         $_SESSION['areacode'] = $_POST['areacode'];
         $_SESSION['errFlag4'] = true;
@@ -113,7 +113,7 @@ if (isset($_POST['continue'])) { //IF CONTINUE BUTTON IS PRESSED
         $_SESSION['phonenumber'] = null;
         $_SESSION['errFlag5'] = true;
         $phoneNumberCorrect = false;
-    } else if (!preg_match("/[0-9]{7}/", $_POST['phonenumber'])) { 
+    } else if (!preg_match("/^$|^\d{7}$/", $_POST['phonenumber'])) { 
         $_SESSION['phonenumber_error'] = "<span class='error small-text'>* Invalid phone number. </span>";
         $_SESSION['phonenumber'] = $_POST['phonenumber'];
         $_SESSION['errFlag5'] = true;
